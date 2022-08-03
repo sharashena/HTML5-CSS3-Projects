@@ -1,0 +1,46 @@
+@import url(./variables.css);
+
+.section {
+  padding: 1rem 2rem;
+}
+.section-center {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.section-title {
+  font-size: 3rem;
+  text-align: center;
+}
+h1 {
+  text-transform: capitalize;
+}
+img {
+  width: 100%;
+  display: block;
+}
+
+/* footer */
+.copyright {
+  background-color: var(--mainBlack);
+  color: var(--mainWhite);
+  padding: 1rem 0;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.footer-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 3px solid var(--primaryColor);
+  color: var(--primaryColor);
+  margin: 3rem;
+  transition: var(--transition);
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+.footer-btn:hover {
+  background-color: var(--primaryColor);
+  color: var(--mainWhite);
+}

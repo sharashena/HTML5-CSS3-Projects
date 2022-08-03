@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #2caeba;
+  --primary-color-light: #88ebf2;
+  --bcg-white: #fff;
+  --bcg-grey-1: #f1f5f8;
+  --bcg-grey-2: #102a42;
+  --bcg-grey-3: #044e53;
+  --clr-text: #617d98;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --ff-primary: "Lato", sans-serif;
+}

@@ -1,0 +1,153 @@
+/* imports */
+@import url(./importantClasses.css);
+@import url(./responsive.css);
+@import url(./variables.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Fira Code", monospace;
+  color: var(--mainBlack);
+  background-color: var(--mainWhite);
+  letter-spacing: var(--spacing);
+}
+
+/* navbar */
+.navbar {
+  background-color: var(--darkGrey);
+  padding: 0 2rem;
+}
+.navbar-container li {
+  list-style: none;
+}
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: var(--primaryColor);
+  text-transform: capitalize;
+  padding: 1rem 0;
+  transition: var(--transition);
+  font-size: 1.1rem;
+}
+.nav-link:hover {
+  color: var(--mainBlack);
+}
+
+/* hero section */
+.hero-section {
+  background-color: var(--primaryColor);
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  padding: 0 2.5rem;
+  color: var(--mainWhite);
+}
+.banner h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.banner p {
+  max-width: 560px;
+  width: 80%;
+  font-size: 1rem;
+  line-height: 30px;
+  letter-spacing: 0;
+}
+
+/* cards section */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(368px, 1fr));
+  gap: 3rem 2rem;
+  margin-top: 2rem;
+}
+.single-card {
+  border: 1px solid var(--darkGrey);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.single-card img {
+  height: 300px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.single-card h3 {
+  text-transform: capitalize;
+}
+.single-card p {
+  letter-spacing: 0;
+  font-size: 0.8rem;
+  color: var(--darkGrey);
+  margin-top: 1rem;
+}
+.single-card-info {
+  padding: 1rem;
+}
+
+/* social icons */
+.social-icons {
+  background-color: var(--darkGrey);
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.icon {
+  color: var(--primaryColor);
+}
+
+/* tiles layout */
+.tiles {
+  margin-top: 2rem;
+}
+.single-tile {
+  margin-bottom: 2rem;
+}
+.single-tile img {
+  height: 300px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+/* layout */
+.layout-section {
+  min-height: calc(100vh - 208px);
+}
+.layout-navbar {
+  padding: 0 1rem;
+}
+.layout-title {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  background-color: var(--primaryColor);
+  color: var(--mainWhite);
+}
+.layout-link {
+  color: var(--mainBlack);
+  transition: var(--transition);
+  font-size: 1.2rem;
+  display: block;
+}
+.layout-link:hover {
+  color: var(--mainWhite);
+}
+.layout-text {
+  font-size: 1rem;
+  line-height: 27px;
+  color: grey;
+}
+/* bottombar */
+.bottombar {
+  background-color: var(--primaryColor);
+  padding: 1rem;
+}
+.bottombar span {
+  color: var(--mainWhite);
+  font-size: 1.2rem;
+}

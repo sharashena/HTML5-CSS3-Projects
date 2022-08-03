@@ -1,0 +1,65 @@
+@import url(./variables.css);
+/* major classes */
+.section {
+  padding: 4rem 2rem;
+}
+.section-center {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.section-title {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.section-title h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.section-title h2 span {
+  color: var(--primary-color);
+}
+img:not(.nav-logo) {
+  width: 100%;
+  display: block;
+}
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.65rem 0.75rem;
+  display: inline-block;
+  letter-spacing: var(--spacing);
+  font-size: 0.875rem;
+  cursor: pointer;
+  border: none;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--bcg-grey-1);
+  transition: var(--transition);
+}
+.btn-primary:hover {
+  background-color: var(--primary-color-light);
+  color: #222;
+}
+p {
+  letter-spacing: 0;
+  color: var(--clr-text);
+  font-size: 0.9rem;
+}
+h3 {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
+h4 {
+  font-size: 0.875rem;
+  text-transform: capitalize;
+}
+
+/* social links icons */
+.social-link {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+.social-link:hover {
+  color: var(--primary-color-light);
+}

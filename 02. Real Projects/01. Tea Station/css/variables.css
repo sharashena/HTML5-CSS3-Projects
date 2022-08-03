@@ -1,0 +1,14 @@
+:root {
+  --primaryColor: #678e3e;
+  --primaryColorLight: #beed8c;
+  --clr-grey: #617d98;
+  --bcgColorWhite: #fff;
+  --bcgColorGrey: #f1f5f8;
+  --primaryFont: "Catamaran", sans-serif;
+  --secondaryFont: "Grand Hotel", cursive;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.25rem;
+  --mainRadius: 0.5rem;
+  --mainTransform: capitalize;
+  --mainFontWeight: 600;
+}
