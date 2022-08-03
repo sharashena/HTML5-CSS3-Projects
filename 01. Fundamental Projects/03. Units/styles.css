@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  font-family: Arial;
+}
+
+/* header */
+
+.logo {
+  min-height: 100px;
+}
+
+#logo-title {
+  color: #ef4036;
+}
+
+/* main section */
+/* banner */
+
+.section-center {
+  background-color: #222222;
+  min-height: calc(100vh - 100px);
+}
+
+.banner h2 {
+  color: red;
+}
+
+.banner button {
+  background-color: tomato;
+  font-size: 0.9rem;
+}
+
+#subtitle {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.text {
+  font-size: 1rem;
+}

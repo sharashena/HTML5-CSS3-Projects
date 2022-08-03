@@ -1,0 +1,14 @@
+* {
+  font-family: comic sans ms;
+}
+
+.container .number {
+  color: red;
+}
+.title {
+  color: blue;
+}
+
+.text {
+    color: silver;
+}

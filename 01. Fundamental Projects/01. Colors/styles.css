@@ -1,0 +1,19 @@
+body {
+  background-color: #f1f5f9;
+}
+
+/* container */
+.container {
+  background: white;
+}
+#special {
+  background-color: #181818;
+}
+
+/* inside container */
+.container p {
+  color: #64748b;
+}
+.title {
+  color: #645cff;
+}
